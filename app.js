@@ -39,8 +39,40 @@
     alert('You got ' + counter + ' correct');
   }
 
+<<<<<<< HEAD
   var answer4 = prompt(user + ', how many user manuals does Margaux have?');
   console.log('The user answered Question 4: ' + answer4);
+=======
+//   var answer4 = prompt(user + ', how many user manuals does Margaux have?');
+//   console.log('The user answered Question 4: ' + answer4);
+// while(answer4 != 10){
+//    if(answer4 <= 9){
+//     alert('Too low! Try again.');
+//     answer4 = prompt(user + ', how many user manuals does Margaux have?');
+//   } else {
+//     alert('Too high! Try again.');
+//     answer4 = prompt(user + ', how many user manuals does Margaux have?');
+//   }
+// };
+// alert('Correct!');
+// counter += 1;
+//
+// console.log("value of counter is: " + counter);
+//
+//
+var answer4 = prompt(user + ', how many user manuals does Margaux have?');
+console.log('The user answered Question 4: ' + answer4);
+
+while (answer4 <=9) {
+  alert('Too low! Try again.');
+  answer4 = prompt(user + ', how many user manuals does Margaux have?');
+};
+
+while (answer4 >10) {
+  alert('Too high! Try again.');
+  answer4 = prompt(user + ', how many user manuals does Margaux have?');
+};
+>>>>>>> wednesday
 
   if(answer4 >10) {
     alert('Too high!');
