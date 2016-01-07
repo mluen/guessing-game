@@ -54,6 +54,7 @@
 //
 // console.log("value of counter is: " + counter);
 //
+//
 var answer4 = prompt(user + ', how many user manuals does Margaux have?');
 console.log('The user answered Question 4: ' + answer4);
 
