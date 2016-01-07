@@ -1,4 +1,4 @@
-
+//
   var user = prompt('What is your name?');
   alert('Hello, ' + user + ', I am going to ask you a few questions.');
   console.log('The user\'s name is ' + user);
@@ -25,7 +25,6 @@
     counter += 1;
   }   else {
     alert('Wrong!');
-    alert('You got ' + counter + ' correct');
   }
 
   var answer3 = prompt(user + ', does Margaux have cats?');
@@ -39,10 +38,6 @@
     alert('You got ' + counter + ' correct');
   }
 
-<<<<<<< HEAD
-  var answer4 = prompt(user + ', how many user manuals does Margaux have?');
-  console.log('The user answered Question 4: ' + answer4);
-=======
 //   var answer4 = prompt(user + ', how many user manuals does Margaux have?');
 //   console.log('The user answered Question 4: ' + answer4);
 // while(answer4 != 10){
@@ -59,7 +54,6 @@
 //
 // console.log("value of counter is: " + counter);
 //
-//
 var answer4 = prompt(user + ', how many user manuals does Margaux have?');
 console.log('The user answered Question 4: ' + answer4);
 
@@ -72,12 +66,8 @@ while (answer4 >10) {
   alert('Too high! Try again.');
   answer4 = prompt(user + ', how many user manuals does Margaux have?');
 };
->>>>>>> wednesday
 
-  if(answer4 >10) {
-    alert('Too high!');
-    counter += 1;
-  }   else if(answer4 <9){
-    alert('Too low!');
-    alert('You got ' + counter + ' correct');
-  }
+alert('Correct!');
+counter += 1;
+alert('You got ' + counter + ' correct');
+console.log("value of counter is: " + counter);
