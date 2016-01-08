@@ -57,10 +57,6 @@ function thirdQ() {
   secondQ();
   thirdQ();
 
-
-
-
-
   //alert('You got ' + counter + ' correct');
   //answer3.textContent = 'You got ' + counter + ' correct'
 
