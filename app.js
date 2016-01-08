@@ -71,3 +71,15 @@ alert('Correct!');
 counter += 1;
 alert('You got ' + counter + ' correct');
 console.log("value of counter is: " + counter);
+
+
+//var quesData = [first ques, [sec ques]];
+// var quesData = [[ ques, ans,right-message, wrong-mess], [sec ques, ans, right-message, wrong-message]]
+var quesData = [['Did M live in South Dakota?', 'no', 'NO', 'You\'re right! M has never lived near South Dakota.', 'Wrong!''], [second question]];
+
+function firstQuestion() {
+  var ans1 = prompt(quesData[0][0]);
+  if (ans1.toLowerCase() === quesData[0][1] || ans1.toUpperCase() === quesData [0][2]) {
+
+  }
+}
